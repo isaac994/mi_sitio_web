@@ -15,12 +15,18 @@ header h1 {
     margin: 10px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
 nav a {
     color: #fff;
     text-decoration: none;
-    margin: 20px;
     font-weight: bold;
 }
+
 main {
     max-width: 900px;
     margin: 30px auto;
@@ -66,6 +72,22 @@ form button {
     border: none;
     border-radius: 6px;
     cursor: pointer;
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    section {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
 }
 
 
