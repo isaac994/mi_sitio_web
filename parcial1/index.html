@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celulares y Accesorios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <h1>Celulares y Accesorios</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <p>Vendemos celulares y accesorios de calidad a los mejores precios.</p>
+            <ul>
+                <li>Funda para celular - Bs 35</li>
+                <li>Vidrio templado - Bs 25</li>
+                <li>Cargador USB-C - Bs 50</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required>
+
+                <label for="correo">Correo</label>
+                <input type="email" id="correo" required>
+
+                <label for="mensajeUsuario">Mensaje</label>
+                <textarea id="mensajeUsuario"></textarea>
+            </form>
+            <button id="btnEnviar">Enviar</button>
+            <p id="mensaje" class="oculto"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Parcial 1 - Isaac Mico Serna - 3 de agosto de 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
