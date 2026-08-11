@@ -33,18 +33,18 @@
     <p>Escríbenos a: isacmico50@gmail.com</p>
     <p>WhatsApp:63994936</p>
 
-    <form>
-        <label for="nombre">Tu nombre</label>
-        <input type="text" id="nombre" required>
+    <form action="procesar.php" method="POST">
+    <label for="nombre">Tu nombre</label>
+    <input type="text" id="nombre" name="nombre" required>
 
-        <label for="correo">Tu correo</label>
-        <input type="email" id="correo" required>
+    <label for="correo">Tu correo</label>
+    <input type="email" id="correo" name="correo" required>
 
-        <label for="mensaje">Tu mensaje</label>
-        <textarea id="mensaje" placeholder="Escribe tu consulta..."></textarea>
+    <label for="mensaje">Tu mensaje</label>
+    <textarea id="mensaje" name="mensaje" placeholder="Escribe tu consulta..."></textarea>
 
-        <button type="submit">Enviar</button>
-    </form>
+    <button type="submit">Enviar</button>
+</form>
 </section>
 <section id="horarios">
     <h2>Horario de Atención</h2>
