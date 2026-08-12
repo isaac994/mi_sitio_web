@@ -20,5 +20,6 @@ function validarCita(event) {
         avisoCita.classList.add("exito");
         avisoCita.classList.remove("error");
     }
-    formCita.addEventListener("submit", validarCita);
+    
 }
+formCita.addEventListener("submit", validarCita);
