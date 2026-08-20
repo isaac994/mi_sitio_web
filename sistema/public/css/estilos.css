@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+    color: #222;
+}
+
+header {
+    background: #16213e;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    background: #16213e;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-salir {
+    background: #b00020;
+}
+
+.grid-celulares {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.card .marca {
+    color: #888;
+    font-size: 0.85rem;
+}
+
+.card .precio {
+    font-weight: bold;
+    color: #16213e;
+}
+
+.error {
+    background: #ffe0e0;
+    color: #b00020;
+    padding: 0.7rem;
+    border-radius: 6px;
+}
+.contacto-card {
+    max-width: 420px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.contacto-intro {
+    color: #555;
+    margin-top: 0;
+}
+
+.contacto-card label {
+    display: block;
+    margin: 1rem 0 0.3rem 0;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.contacto-card input,
+.contacto-card textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.btn-block {
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 0.7rem;
+    font-size: 1rem;
+}
